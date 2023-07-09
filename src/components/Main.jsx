@@ -20,7 +20,7 @@ export default function Main() {
             <h2>Muhammad Qasim</h2>
             <h3> --------- Frontend Developer</h3>
             <p>
-                I’m a creative frontend developer based in Toronto, Canada. I’m very passionate about my work and love to create unique,
+                I'm a creative frontend developer based in Toronto, Canada. I'm very passionate about my work and love to create unique,
                 appealing and interactive websites.
             </p>
             <div className="main-button">
