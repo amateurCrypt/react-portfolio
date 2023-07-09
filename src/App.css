@@ -55,7 +55,7 @@ a{
 }
 
 #nav-item li a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #474545;
   font-weight: 600;
 }
@@ -96,6 +96,13 @@ a{
   align-items: center;
 }
 
+.fa-brands,a:hover {
+  filter: drop-shadow(0 0 2em #4f4f58aa);
+}
+.main-social,a.react:hover {
+  filter: drop-shadow(0 0 2em #454b4daa);
+}
+
 .main-headline {
   background-color: #D9D9D9;
   width: 500px;
@@ -117,6 +124,11 @@ a{
   font-size: 16px;
   cursor: pointer;
   margin-top: 45px;
+  border: none;
+}
+
+.main-button button:hover {
+  background-color: #868282;
 }
 
 .main-pic {
@@ -138,13 +150,14 @@ a{
   color: #474545 ;
   border: 1px solid orangered;
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 175px; */
+  background-color: #d9d9d9;
 }
 
 .about-box {
   border: 1px solid black;
   display: flex;
-  justify-content: space-aro;
+
   align-items: center;
 }
 
@@ -178,7 +191,7 @@ a{
 }
 
 #section-exp {
-  background-color: #D9D9D9;
+  background-color: white;
   color: #474545;
   border-radius: 15px;
   width: 140px;
@@ -216,4 +229,77 @@ a{
   position: absolute;
   bottom: -240px;
   right: 437px;
+  border: none;
+}
+
+.about-button button:hover {
+  background-color: #868282;
+}
+
+/* -------------- skills ------------- */
+
+.skills {
+  border: 5px solid green;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.skills h1 {
+  margin:0;
+    padding:0;
+  
+}
+
+.skills h3 {
+    margin:0;
+    padding:0;
+  
+}
+
+.skill-box {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill-box i {
+  font-size: 10px;
+  font-family: 'Inika', serif;
+}
+
+.skill-box1 {
+  border: 2px solid red;
+  background-color: #A5A5A5;
+  border-radius: 10px;
+  width: 400px;
+  height: 350px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid orange;
+  flex-wrap: wrap;
+  
+}
+
+.skill-html {
+  border: 2px solid green;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  
+
+}
+
+.skill-html img {
+  width: 25px;
+  height: 27px;
+}
+
+.html-text {
+  color: #474545;
+  font-weight: bolder;
+  font-size: 17px;
 }
