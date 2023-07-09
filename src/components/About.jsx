@@ -1,5 +1,6 @@
 import React from "react"
 import ProfilePic from "../assets/Profile.png"
+import DownloadButton from './DownloadButton';
 
 export default function About() {
 
@@ -32,8 +33,9 @@ export default function About() {
                 </p>
             </div>
         </div>
+
         <div className="about-button">
-                <button>Download Resume      <i class="fa-regular fa-file-pdf fa-xl"></i></button>
+            <DownloadButton />
         </div>
       </div>
     )
