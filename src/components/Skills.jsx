@@ -1,9 +1,12 @@
 import React from "react"
-import Pic1 from "../assets/html5.svg"
-import Pic2 from "../assets/CSS3.svg"
-import Pic3 from "../assets/JS.svg"
-import Pic4 from "../assets/react.svg"
-import Pic5 from "../assets/git.svg"
+import html from "../assets/html5.svg"
+import css from "../assets/CSS3.svg"
+import js from "../assets/JS.svg"
+import react from "../assets/react.svg"
+import git from "../assets/git.svg"
+import google from "../assets/Google.svg"
+import notion from "../assets/Notion.svg"
+import figma from "../assets/Figma.svg"
 
 export default function Navbar() {
 
@@ -21,35 +24,35 @@ export default function Navbar() {
                 <div className="container">
                 
                   <div className="skill-html">
-                    <img src={Pic1}></img>
+                    <img src={html}></img>
                     <div className="html-text">
                       <h4>HTML</h4>
                     </div>
                   </div>
 
                   <div className="skill-html">
-                    <img src={Pic2}></img>
+                    <img src={css}></img>
                     <div className="html-text">
                       <h4>CSS</h4>
                     </div>
                   </div>
 
                   <div className="skill-html">
-                    <img src={Pic3}></img>
+                    <img src={js}></img>
                     <div className="html-text">
                       <h4>Javascript</h4>
                     </div>
                   </div>
 
                   <div className="skill-html">
-                    <img src={Pic4}></img>
+                    <img src={react}></img>
                     <div className="html-text">
                       <h4>React</h4>
                     </div>
                   </div>
 
                   <div className="skill-html">
-                    <img src={Pic5}></img>
+                    <img src={git}></img>
                     <div className="html-text">
                       <h4>Git</h4>
                     </div>
@@ -66,16 +69,23 @@ export default function Navbar() {
                 <div className="container">
 
                   <div className="skill-html">
-                    <img src={Pic1}></img>
+                    <img src={google}></img>
                     <div className="html-text">
                       <h4>Google Suite</h4>
                     </div>
                   </div>
 
                   <div className="skill-html">
-                    <img src={Pic1}></img>
+                    <img src={notion}></img>
                     <div className="html-text">
                       <h4>Notion</h4>
+                    </div>
+                  </div>
+
+                  <div className="skill-html">
+                    <img src={figma}></img>
+                    <div className="html-text">
+                      <h4>Figma</h4>
                     </div>
                   </div>
                 
